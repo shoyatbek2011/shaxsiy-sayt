@@ -1,9 +1,17 @@
-import React from 'react'
+import React from "react";
+import { FaGithub, FaLinkedin, FaTelegram } from "react-icons/fa";
 
-const Footer = () => {
+export default function Footer() {
   return (
-    <div className='text-center font-bold text-xl bg-cyan-600 py-6'>Footer</div>
-  )
+    <footer className="fixed bottom-0 left-0 w-full bg-white/80 backdrop-blur-md shadow-sm z-50 py-8 mt-16 text-gray-900">
+      <div className="max-w-6xl mx-auto px-6 text-center">
+        
+       
+        {/* Copyright */}
+        <p className="text-sm">
+          © {new Date().getFullYear()} Ibrohimov. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  );
 }
-
-export default Footer
