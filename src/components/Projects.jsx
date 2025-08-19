@@ -19,7 +19,7 @@ export default function Projects() {
       description: "React va Tailwind CSS yordamida yaratilgan zamonaviy portfolio.",
       image: portfolioImg,
       demo: "",
-      github: "",
+      github: "https://github.com/shoyatbek2011/shaxsiy-sayt",
     },
     {
       title: "E-Commerce App",
