@@ -93,7 +93,7 @@ Xabar: ${form.message}
             menga bemalol yozishingiz mumkin. Men sizning xabaringizni intiqlik bilan kutaman.
           </p>
           <div className="space-y-5 text-lg">
-            <p className="flex items-center gap-4">📧 <span>shoyadbekshoyadbek97@gmail.com</span></p>
+            <p className="flex items-center gap-4">📧 <span>shoyadbek97@gmail.com</span></p>
             <p className="flex items-center gap-4">📱 <span>+998 95 821 82 23</span></p>
             <p className="flex items-center gap-4">🌐 <span>shaxsiy-sayt.vercel.app</span></p>
           </div>
