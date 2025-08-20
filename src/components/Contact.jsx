@@ -18,8 +18,8 @@ export default function Contact() {
     return () => observer.disconnect();
   }, []);
 
-  const TELEGRAM_BOT_TOKEN = "BOT_TOKENINGIZNI_BU_YERGA_QO'YING";
-  const TELEGRAM_CHAT_ID = "CHAT_ID_ISHLATISH";
+  const TELEGRAM_BOT_TOKEN = "8253350499:AAH6itoE9BKYJtSjtBOR3WaMYV7Ipl6qAHg";
+  const TELEGRAM_CHAT_ID = "6755240892";
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -95,7 +95,7 @@ Xabar: ${form.message}
           <div className="space-y-5 text-lg">
             <p className="flex items-center gap-4">📧 <span>shoyadbekshoyadbek97@gmail.com</span></p>
             <p className="flex items-center gap-4">📱 <span>+998 95 821 82 23</span></p>
-            <p className="flex items-center gap-4">🌐 <span>https://shaxsiy-sayt.vercel.app/</span></p>
+            <p className="flex items-center gap-4">🌐 <span>shaxsiy-sayt.vercel.app</span></p>
           </div>
         </div>
 
